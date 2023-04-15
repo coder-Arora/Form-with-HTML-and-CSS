@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    body{
+    background: url('back2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 120vh;
+    }
+    .main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+    }
+    h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 20px;
+    }
+    div.register{
+    
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: #fff;
+    max-height:1000px ;
+    
+    }
+    #register{
+    margin: 30px;
+    }
+    label{
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    }
+    #name{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    /* font-weight: ; */
+    border-radius: 3px;
+    background-color: rgba(255,255,255,0.3);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.3);
+    
+    
+    
+    }
+    label,span,h2{
+    text-shadow: rgba(255, 255, 255, 0.3) ;
+    }
+    ::placeholder{
+    color: #fff;
+    }
+    #btn{
+    width: 100px;
+    height: 35px;
+    /* border-radius: 2px solid black; */
+    
+    cursor: pointer;
+    font-family: sans-serif;
+    }
